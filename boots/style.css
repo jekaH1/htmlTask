@@ -1,0 +1,30 @@
+* {
+    margin: 0 px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 2px
+}
+
+nav {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: auto;
+    height: 10px;
+    border: 50px;
+    font-weight: 00;
+    line-height: 20px;
+    padding: 10px;
+    position: fixed;
+    background-color: white
+}
+
+nav ul {
+    float: right;
+
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    width: 100px;
+    margin-bottom: 100px;
+}
