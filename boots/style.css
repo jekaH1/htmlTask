@@ -1,17 +1,15 @@
 * {
 
     box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 
 }
 
 nav {
     width: 100%;
-
     border: 50px;
-    font-weight: 00;
-    line-height: 20px;
     padding: 10px;
-    position: fixed;
     background-color: white
 }
 
@@ -19,6 +17,7 @@ nav {
 nav li {
     list-style: none;
     display: inline-block;
+    position: relative;
 
 }
 
@@ -26,6 +25,8 @@ nav .link ul li a {
     padding-left: 15px;
     text-decoration: none;
     color: black;
+    left: 50px;
+
 }
 
 nav .CompanyName .Megavision {
@@ -34,4 +35,11 @@ nav .CompanyName .Megavision {
 
 nav .link ul li a button {
     font-size: large;
+}
+
+nav .link {}
+
+nav .row {
+    box-shadow: 0 0.25rem 0.75rem rgb(0 0 0 / 5%);
+    height: 50px;
 }
